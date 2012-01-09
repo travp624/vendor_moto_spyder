@@ -56,6 +56,9 @@ vendor/motorola/spyder/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/spyder/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 vendor/motorola/spyder/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 vendor/motorola/spyder/proprietary/motobox:/system/bin/motobox \
+vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
+vendor/motorola/targa/proprietary/rild:/system/bin/rild \
 #vendor/motorola/spyder/proprietary/battd:/system/bin/battd \
 #vendor/motorola/spyder/proprietary/dlnasrv:/system/bin/dlnasrv \
 #vendor/motorola/spyder/proprietary/ip:/system/bin/ip \
