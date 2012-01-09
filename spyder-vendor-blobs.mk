@@ -16,60 +16,81 @@
 
 # All the blobs necessary for spyder
 
+include $(all-subdir-makefiles)
+
+PRODUCT_PACKAGES += \
+	appdirectedsmspermission \
+	ChargeOnlyMode \
+	com.motorola.android.server.ims \
+	ConnMO \
+	DMService \
+	PhoneConfig \
+	ProgramMenu \
+	ProgramMenuSystem \
+	vzwapnpermission 
+
 # system/bin
 PRODUCT_COPY_FILES += \
-vendor/motorola/spyder/proprietary/Hostapd:/system/bin/Hostapd \
 vendor/motorola/spyder/proprietary/akmd2:/system/bin/akmd2 \
 vendor/motorola/spyder/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
 vendor/motorola/spyder/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
+vendor/motorola/spyder/proprietary/base64:/system/bin/base64 \
 vendor/motorola/spyder/proprietary/batch:/system/bin/batch \
+vendor/motorola/spyder/proprietary/battd:/system/bin/battd \
 vendor/motorola/spyder/proprietary/btcmd:/system/bin/btcmd \
 vendor/motorola/spyder/proprietary/bthelp:/system/bin/bthelp \
 vendor/motorola/spyder/proprietary/bttest_mot:/system/bin/bttest_mot \
+vendor/motorola/spyder/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 vendor/motorola/spyder/proprietary/charge_only_mode:/system/bin/charge_only_mode \
 vendor/motorola/spyder/proprietary/chat-ril:/system/bin/chat-ril \
 vendor/motorola/spyder/proprietary/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
+vendor/motorola/spyder/proprietary/dlnasrv:/system/bin/dlnasrv \
 vendor/motorola/spyder/proprietary/dmt:/system/bin/dmt \
 vendor/motorola/spyder/proprietary/dumpe2fs:/system/bin/dumpe2fs \
 vendor/motorola/spyder/proprietary/dund:/system/bin/dund \
 vendor/motorola/spyder/proprietary/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/spyder/proprietary/enable_mdm_usb_suspend.sh:/system/bin/enable_mdm_usb_suspend.sh \
 vendor/motorola/spyder/proprietary/enc_mgt_tool:/system/bin/enc_mgt_tool \
+vendor/motorola/spyder/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
 vendor/motorola/spyder/proprietary/fbread:/system/bin/fbread \
 vendor/motorola/spyder/proprietary/ftmipcd:/system/bin/ftmipcd \
 vendor/motorola/spyder/proprietary/gkilogd:/system/bin/gkilogd \
 vendor/motorola/spyder/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
+vendor/motorola/spyder/proprietary/Hostapd:/system/bin/Hostapd \
+vendor/motorola/spyder/proprietary/ip:/system/bin/ip \
+vendor/motorola/spyder/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
+vendor/motorola/spyder/proprietary/logcatd:/system/bin/logcatd \
+vendor/motorola/spyder/proprietary/logcatd-blan:/system/bin/logcatd-blan 
+vendor/motorola/spyder/proprietary/memtest_mode:/system/bin/memtest_mode \
+vendor/motorola/spyder/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
 vendor/motorola/spyder/proprietary/modemlog:/system/bin/modemlog \
 vendor/motorola/spyder/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
+vendor/motorola/spyder/proprietary/motobox:/system/bin/motobox \
+vendor/motorola/spyder/proprietary/mountosh:/system/bin/mountosh \
 vendor/motorola/spyder/proprietary/msp430:/system/bin/msp430 \
 vendor/motorola/spyder/proprietary/napics.sh:/system/bin/napics.sh \
+vendor/motorola/spyder/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
+vendor/motorola/spyder/proprietary/rild:/system/bin/rild \
 vendor/motorola/spyder/proprietary/secclkd:/system/bin/secclkd \
+vendor/motorola/spyder/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 vendor/motorola/spyder/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 vendor/motorola/spyder/proprietary/tcmd:/system/bin/tcmd \
 vendor/motorola/spyder/proprietary/tcmdhelp:/system/bin/tcmdhelp \
 vendor/motorola/spyder/proprietary/testpppd:/system/bin/testpppd \
+vendor/motorola/spyder/proprietary/tf_daemon:/system/bin/tf_daemon \
 vendor/motorola/spyder/proprietary/tiap_loader:/system/bin/tiap_loader \
+vendor/motorola/spyder/proprietary/tstmetainfo:/system/bin/tstmetainfo \
 vendor/motorola/spyder/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 vendor/motorola/spyder/proprietary/tund:/system/bin/tund \
 vendor/motorola/spyder/proprietary/usbd:/system/bin/usbd \
-vendor/motorola/spyder/proprietary/whisperd:/system/bin/whisperd \
+vendor/motorola/spyder/proprietary/vold:/system/bin/vold \
+vendor/motorola/spyder/proprietary/vril-dump:/system/bin/vril-dump \
 vendor/motorola/spyder/proprietary/vpnclientpm:/system/bin/vpnclientpm \
-vendor/motorola/spyder/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
-vendor/motorola/spyder/proprietary/motobox:/system/bin/motobox \
-vendor/motorola/targa/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-vendor/motorola/targa/proprietary/libril.so:/system/lib/libril.so \
-vendor/motorola/targa/proprietary/rild:/system/bin/rild \
-#vendor/motorola/spyder/proprietary/battd:/system/bin/battd \
-#vendor/motorola/spyder/proprietary/dlnasrv:/system/bin/dlnasrv \
-#vendor/motorola/spyder/proprietary/ip:/system/bin/ip \
-#vendor/motorola/spyder/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
-#vendor/motorola/spyder/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/spyder/proprietary/motobox:/system/bin/motobox \
-#vendor/motorola/spyder/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
-#vendor/motorola/spyder/proprietary/tf_daemon:/system/bin/tf_daemon \
-#vendor/motorola/spyder/proprietary/tstmetainfo:/system/bin/tstmetainfo \
-#vendor/motorola/spyder/proprietary/vold:/system/bin/vold \
-
+vendor/motorola/spyder/proprietary/whisperd:/system/bin/whisperd \
+vendor/motorola/spyder/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
+vendor/motorola/spyder/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
+vendor/motorola/spyder/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+vendor/motorola/spyder/proprietary/libril.so:/system/lib/libril.so \
 
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -95,10 +116,9 @@ vendor/motorola/spyder/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_i
 vendor/motorola/spyder/proprietary/mspfirmware.bin:/system/etc/mspfirmware/mspfirmware.bin \
 vendor/motorola/spyder/proprietary/version.txt:/system/etc/mspfirmware/version.txt \
 
-#vendor/motorola/spyder/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
-
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 vendor/motorola/spyder/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/spyder/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
 vendor/motorola/spyder/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
@@ -200,8 +220,15 @@ vendor/motorola/spyder/proprietary/surround71.conf:system/usr/share/alsa/pcm/sur
 
 # system/lib
 PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
+vendor/motorola/spyder/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
+vendor/motorola/spyder/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
+vendor/motorola/spyder/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
+vendor/motorola/spyder/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 vendor/motorola/spyder/proprietary/libamcm.so:/system/lib/libamcm.so \
+vendor/motorola/spyder/proprietary/libb64.so:/system/lib/libb64.so \
+vendor/motorola/spyder/proprietary/libbabysit.so:/system/lib/libbabysit.so \
 vendor/motorola/spyder/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/spyder/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
 vendor/motorola/spyder/proprietary/libbt-aptx.so:/system/lib/libbt-aptx.so \
@@ -215,16 +242,21 @@ vendor/motorola/spyder/proprietary/libdlnaprofileparser.so:/system/lib/libdlnapr
 vendor/motorola/spyder/proprietary/libdlnasysjni.so:/system/lib/libdlnasysjni.so \
 vendor/motorola/spyder/proprietary/libdmengine.so:/system/lib/libdmengine.so \
 vendor/motorola/spyder/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
+vendor/motorola/spyder/proprietary/libdrm.so:/system/lib/libdrm.so \
 vendor/motorola/spyder/proprietary/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/spyder/proprietary/libextdisp.so:/system/lib/libextdisp.so \
 vendor/motorola/spyder/proprietary/libfmchr.so:/system/lib/libfmchr.so \
 vendor/motorola/spyder/proprietary/libfm_stack.so:/system/lib/libfm_stack.so \
+vendor/motorola/spyder/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
 vendor/motorola/spyder/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/spyder/proprietary/libhdmi.so:/system/lib/libhdmi.so \
 vendor/motorola/spyder/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/spyder/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
+vendor/motorola/spyder/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
+vendor/motorola/spyder/proprietary/libipsec.so:/system/lib/libipsec.so \
 vendor/motorola/spyder/proprietary/libjanus.so:/system/lib/libjanus.so \
 vendor/motorola/spyder/proprietary/libjni_nwp.so:/system/lib/libjni_nwp.so \
+vendor/motorola/spyder/proprietary/libjni_pinyinime.so:/system/lib/libjni_pinyinime.so \
 vendor/motorola/spyder/proprietary/libkpilogger.so:/system/lib/libkpilogger.so \
 vendor/motorola/spyder/proprietary/libmetainfo.so:/system/lib/libmetainfo.so \
 vendor/motorola/spyder/proprietary/libmirror.so:/system/lib/libmirror.so \
@@ -255,61 +287,106 @@ vendor/motorola/spyder/proprietary/libpkip.so:/system/lib/libpkip.so \
 vendor/motorola/spyder/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 vendor/motorola/spyder/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 vendor/motorola/spyder/proprietary/libprovlib.so:/system/lib/libprovlib.so \
+vendor/motorola/spyder/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
+vendor/motorola/spyder/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
 vendor/motorola/spyder/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 vendor/motorola/spyder/proprietary/librds_util.so:/system/lib/librds_util.so \
 vendor/motorola/spyder/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/spyder/proprietary/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/spyder/proprietary/libsmapi.so:/system/lib/libsmapi.so \
+vendor/motorola/spyder/proprietary/libsrv_init.so:/system/lib/libsrv_init.so \
+vendor/motorola/spyder/proprietary/libsrv_um.so:/system/lib/libsrv_um.so \
 vendor/motorola/spyder/proprietary/libssmgr.so:/system/lib/libssmgr.so \
+vendor/motorola/spyder/proprietary/libtalk_jni.so:/system/lib/libtalk_jni.so \
 vendor/motorola/spyder/proprietary/libtexture_mem.so:/system/lib/libtexture_mem.so \
 vendor/motorola/spyder/proprietary/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
 vendor/motorola/spyder/proprietary/libtpa.so:/system/lib/libtpa.so \
 vendor/motorola/spyder/proprietary/libtpa_core.so:/system/lib/libtpa_core.so \
 vendor/motorola/spyder/proprietary/libui3d.so:/system/lib/libui3d.so \
+vendor/motorola/spyder/proprietary/libusc.so:/system/lib/libusc.so \
 vendor/motorola/spyder/proprietary/libvideoeditorlite.so:/system/lib/libvideoeditorlite.so \
+vendor/motorola/spyder/proprietary/libvoicesearch.so:/system/lib/libvoicesearch.so \
 vendor/motorola/spyder/proprietary/libvorbisidec.so:/system/lib/libvorbisidec.so \
 vendor/motorola/spyder/proprietary/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 vendor/motorola/spyder/proprietary/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 vendor/motorola/spyder/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
-vendor/motorola/spyder/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
-vendor/motorola/spyder/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/spyder/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
 vendor/motorola/spyder/proprietary/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 vendor/motorola/spyder/proprietary/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
-vendor/motorola/spyder/proprietary/base64:/system/bin/base64 \
-vendor/motorola/spyder/proprietary/libb64.so:/system/lib/libb64.so \
-vendor/motorola/spyder/proprietary/libbabysit.so:/system/lib/libbabysit.so \
-vendor/motorola/spyder/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
-vendor/motorola/spyder/proprietary/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
-vendor/motorola/spyder/proprietary/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
 vendor/motorola/spyder/proprietary/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh \
-vendor/motorola/spyder/proprietary/vril-dump:/system/bin/vril-dump \
 vendor/motorola/spyder/proprietary/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
 vendor/motorola/spyder/proprietary/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
-vendor/motorola/spyder/proprietary/mountosh:/system/bin/mountosh \
-vendor/motorola/spyder/proprietary/extract-embedded-files:/system/bin/extract-embedded-files \
-vendor/motorola/spyder/proprietary/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/motorola/spyder/proprietary/libmotdb.so:/system/lib/libmotdb.so \
 vendor/motorola/spyder/proprietary/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/motorola/spyder/proprietary/libportaljni.so:/system/lib/libportaljni.so \
 vendor/motorola/spyder/proprietary/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
 vendor/motorola/spyder/proprietary/suplcerts.bks:system/etc/security/suplcerts.bks \
 
-#vendor/motorola/spyder/proprietary/libipsec.so:/system/lib/libipsec.so \
+
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
 vendor/motorola/spyder/proprietary/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \
 
+# system/lib/egl
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/libEGL_POWERVR_SGX540_120.so:/system/lib/egl/libEGL_POWERVR_SGX540_120.so \
+vendor/motorola/spyder/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
+vendor/motorola/spyder/proprietary/libGLESv2_POWERVR_SGX540_120.so:/system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+vendor/motorola/spyder/proprietary/libeglinfo.so:/system/lib/egl/libeglinfo.so \
+vendor/motorola/spyder/proprietary/libgles1_texture_stream.so:/system/lib/egl/libgles1_texture_stream.so \
+vendor/motorola/spyder/proprietary/libgles2_texture_stream.so:/system/lib/egl/libgles2_texture_stream.so \
+
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/gps.spyder.so:/system/lib/hw/gps.spyder.so \
+vendor/motorola/spyder/proprietary/gralloc.omap4.so:/system/lib/hw/gralloc.omap4.so \
 vendor/motorola/spyder/proprietary/lights.spyder.so:/system/lib/hw/lights.spyder.so \
 vendor/motorola/spyder/proprietary/sensors.spyder.so:/system/lib/hw/sensors.spyder.so \
 vendor/motorola/spyder/proprietary/sensorhub.spyder.so:/system/lib/hw/sensorhub.spyder.so \
 
+# system/tts
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
+vendor/motorola/spyder/proprietary/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.bin \
+vendor/motorola/spyder/proprietary/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
+vendor/motorola/spyder/proprietary/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
+
+# system/usr
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
+vendor/motorola/spyder/proprietary/aev_abs.kcm.bin:/system/usr/keychars/aev_abs.kcm.bin \
+vendor/motorola/spyder/proprietary/evfwd.kcm.bin:/system/usr/keychars/evfwd.kcm.bin \
+vendor/motorola/spyder/proprietary/kbd_br_abnt2.kcm.bin:/system/usr/keychars/kbd_br_abnt2.kcm.bin \
+vendor/motorola/spyder/proprietary/kbd_de_basic.kcm.bin:/system/usr/keychars/kbd_de_basic.kcm.bin \
+vendor/motorola/spyder/proprietary/kbd_gb_basic.kcm.bin:/system/usr/keychars/kbd_gb_basic.kcm.bin \
+vendor/motorola/spyder/proprietary/kbd_latam_basic.kcm.bin:/system/usr/keychars/kbd_latam_basic.kcm.bin \
+vendor/motorola/spyder/proprietary/kbd_us_basic.kcm.bin:/system/usr/keychars/kbd_us_basic.kcm.bin \
+vendor/motorola/spyder/proprietary/kbd_us_intl.kcm.bin:/system/usr/keychars/kbd_us_intl.kcm.bin \
+vendor/motorola/spyder/proprietary/omap-keypad.kcm.bin:/system/usr/keychars/omap-keypad.kcm.bin \
+vendor/motorola/spyder/proprietary/QWERTY.kcm.bin:/system/usr/keychars/QWERTY.kcm.bin \
+vendor/motorola/spyder/proprietary/QWERTY2.kcm.bin:/system/usr/keychars/QWERTY2.kcm.bin \
+vendor/motorola/spyder/proprietary/aev_abs.kl:/system/usr/keylayout/aev_abs.kl \
+vendor/motorola/spyder/proprietary/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
+vendor/motorola/spyder/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
+vendor/motorola/spyder/proprietary/cy8c201xx.kl:/system/usr/keylayout/cy8c201xx.kl \
+vendor/motorola/spyder/proprietary/evfwd.kl:/system/usr/keylayout/evfwd.kl \
+vendor/motorola/spyder/proprietary/omap-keypad.kl:/system/usr/keylayout/omap-keypad.kl \
+vendor/motorola/spyder/proprietary/QWERTY.kl:/system/usr/keylayout/QWERTY.kl \
+vendor/motorola/spyder/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
+vendor/motorola/spyder/proprietary/alsa.conf:/system/usr/share/alsa/alsa.conf \
+vendor/motorola/spyder/proprietary/00main:/system/usr/share/alsa/init/00main \
+vendor/motorola/spyder/proprietary/default:/system/usr/share/alsa/init/default \
+vendor/motorola/spyder/proprietary/hda:/system/usr/share/alsa/init/hda \
+vendor/motorola/spyder/proprietary/help:/system/usr/share/alsa/init/help \
+vendor/motorola/spyder/proprietary/info:/system/usr/share/alsa/init/info \
+vendor/motorola/spyder/proprietary/test:/system/usr/share/alsa/init/test \
+
 # system/xbin
 PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/backup:/system/xbin/backup \
 vendor/motorola/spyder/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
+vendor/motorola/spyder/proprietary/run_backup:/system/xbin/run_backup \
+vendor/motorola/spyder/proprietary/run_restore:/system/xbin/run_restore \
 vendor/motorola/spyder/proprietary/ssmgrd:/system/xbin/ssmgrd \
 
