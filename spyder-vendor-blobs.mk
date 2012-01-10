@@ -60,7 +60,7 @@ vendor/motorola/spyder/proprietary/Hostapd:/system/bin/Hostapd \
 vendor/motorola/spyder/proprietary/ip:/system/bin/ip \
 vendor/motorola/spyder/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
 vendor/motorola/spyder/proprietary/logcatd:/system/bin/logcatd \
-vendor/motorola/spyder/proprietary/logcatd-blan:/system/bin/logcatd-blan 
+vendor/motorola/spyder/proprietary/logcatd-blan:/system/bin/logcatd-blan \
 vendor/motorola/spyder/proprietary/memtest_mode:/system/bin/memtest_mode \
 vendor/motorola/spyder/proprietary/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
 vendor/motorola/spyder/proprietary/modemlog:/system/bin/modemlog \
