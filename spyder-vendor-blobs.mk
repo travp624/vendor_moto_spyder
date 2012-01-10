@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 	appdirectedsmspermission \
 	ChargeOnlyMode \
 	com.motorola.android.server.ims \
-	ConnMO \
+	ConnMO \\
+	GlobalUnplug \
 	DMService \
 	PhoneConfig \
 	ProgramMenu \
