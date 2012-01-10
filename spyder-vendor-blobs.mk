@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
 	PhoneConfig \
 	ProgramMenu \
 	ProgramMenuSystem \
+	Usb \
 	vzwapnpermission 
 
 # system/bin
