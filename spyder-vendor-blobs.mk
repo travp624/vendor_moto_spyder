@@ -31,6 +31,14 @@ PRODUCT_PACKAGES += \
 	Usb \
 	vzwapnpermission 
 
+# system/framework
+PRODUCT_COPY_FILES += \
+vendor/motorola/spyder/proprietary/com.motorola.atcmd.base.jar:/system/framework/com.motorola.atcmd.base.jar \
+vendor/motorola/spyder/proprietary/com.motorola.atcmd.pluginMgr.jar:/system/framework/com.motorola.atcmd.pluginMgr.jar \
+vendor/motorola/spyder/proprietary/com.motorola.device.jar:/system/framework/com.motorola.device.jar \
+vendor/motorola/spyder/proprietary/jcifs-krb5-1.3.12.jar:/system/framework/jcifs-krb5-1.3.12.jar \
+
+
 # system/bin
 PRODUCT_COPY_FILES += \
 vendor/motorola/spyder/proprietary/akmd2:/system/bin/akmd2 \
