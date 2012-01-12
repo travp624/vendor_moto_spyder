@@ -19,11 +19,11 @@ LOCAL_PATH:=\$(call my-dir)
 
 # Module makefile rules for apks on stingray
 
-# AppDirectedSmsService
+# appdirectedsmspermission
 
 include \$(CLEAR_VARS)
 
-LOCAL_MODULE := AppDirectedSmsService
+LOCAL_MODULE := appdirectedsmspermission
 LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
