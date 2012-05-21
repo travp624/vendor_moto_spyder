@@ -311,6 +311,7 @@ vendor/moto/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOM
 vendor/moto/spyder/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
 vendor/moto/spyder/proprietary/lib/libdomx.so:/system/lib/libdomx.so \
 vendor/moto/spyder/proprietary/lib/libmm_osal.so:/system/lib/libmm_osal.so \
+vendor/moto/spyder/proprietary/lib/libion.so:/system/lib/libion.so \
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
