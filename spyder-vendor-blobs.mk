@@ -80,8 +80,9 @@ vendor/moto/spyder/proprietary/etc/mspfirmware/version.txt:/system/etc/mspfirmwa
 #vendor/moto/spyder/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 
 # system/etc/(others)
+#vendor/moto/spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
+
 PRODUCT_COPY_FILES += \
-vendor/moto/spyder/proprietary/etc/firmware/ducati-m3.bin:/system/etc/firmware/ducati-m3.bin \
 vendor/moto/spyder/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/moto/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-plt.bin \
 vendor/moto/spyder/proprietary/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl128x-fw-multirole-roc.bin \
@@ -89,63 +90,6 @@ vendor/moto/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-
 vendor/moto/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin:/system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin \
 vendor/moto/spyder/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:/system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
 vendor/moto/spyder/proprietary/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
-vendor/moto/spyder/proprietary/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
-vendor/moto/spyder/proprietary/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039_CAL.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039_CAL.cfg \
-vendor/moto/spyder/proprietary/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039_EE.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039_EE.cfg \
-vendor/moto/spyder/proprietary/etc/omapcam/SEN2.cfg:/system/etc/omapcam/SEN2.cfg \
-vendor/moto/spyder/proprietary/etc/omapcam/SEN2_EE.cfg:/system/etc/omapcam/SEN2_EE.cfg \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_supp3_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_supp3_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_ti2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_ti2_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_gains_adjust.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_gains_adjust.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_tuning.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_capabilities.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_capabilities.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ducati_eff_tun.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_eff_tun.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ducati_lsc_2d.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_lsc_2d.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_face_detect_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_face_detect_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_face_tracking_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_face_tracking_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_golden_module_calibration_180rotation.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_golden_module_calibration_180rotation.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_h3a_aewb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_h3a_aewb_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_3d_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_3d_lut_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_car_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_car_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cfai_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cfai_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cgs_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cgs_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_lut_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_otf.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_otf.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gbce_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gic_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gic_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_lsc_poly_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_lsc_poly_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf1_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf2_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rsz_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rsz_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_isif_csc_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_csc_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_iss_glbce3_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_glbce3_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_iss_lbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_lbce_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_iss_scene_modes_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_scene_modes_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_iss_vstab_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_vstab_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cac_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cac_cfg_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cfg_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1.bak/cid1039_ov8820_vnf_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_vnf_cfg_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1_cal/cid1039_ov8820_alg_3a_ae_supp3_dcc.bin:/system/etc/omapcam/module1_cal/cid1039_ov8820_alg_3a_ae_supp3_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1_cal/cid1039_ov8820_isif_clamp_dcc.bin:/system/etc/omapcam/module1_cal/cid1039_ov8820_isif_clamp_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1_cal/cid1039_ov8820_lsc_interp.bin:/system/etc/omapcam/module1_cal/cid1039_ov8820_lsc_interp.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1_ee/cid1039_ov8820_ducati_gamma.bin:/system/etc/omapcam/module1_ee/cid1039_ov8820_ducati_gamma.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1_ee/cid1039_ov8820_ducati_nsf_ldc.bin:/system/etc/omapcam/module1_ee/cid1039_ov8820_ducati_nsf_ldc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module1_ee/cid1039_ov8820_ipipe_ee_dcc.bin:/system/etc/omapcam/module1_ee/cid1039_ov8820_ipipe_ee_dcc.bin \
-vendor/moto/spyder/proprietary/etc/omapcam/module2/cid1044_mt9m114_sensor_config_dcc.bin:/system/etc/omapcam/module2/cid1044_mt9m114_sensor_config_dcc.bin \
 vendor/moto/spyder/proprietary/etc/ppp/peers/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
 vendor/moto/spyder/proprietary/etc/updatecmds/google_generic_update.txt:/system/etc/updatecmds/google_generic_update.txt \
 vendor/moto/spyder/proprietary/etc/VideoEditorLite/mve.ini:/system/etc/VideoEditorLite/mve.ini \
@@ -248,22 +192,8 @@ vendor/moto/spyder/proprietary/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.
 vendor/moto/spyder/proprietary/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 vendor/moto/spyder/proprietary/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/moto/spyder/proprietary/lib/libxmpcore.so:/system/lib/libxmpcore.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libavc1.so:/system/lib/helixndk/libavc1.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libavcm.so:/system/lib/helixndk/libavcm.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libdeviceid_jni.so:/system/lib/helixndk/libdeviceid_jni.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libhttpfsys.so:/system/lib/helixndk/libhttpfsys.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libhttplivefformat.so:/system/lib/helixndk/libhttplivefformat.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libhxmedpltfm.so:/system/lib/helixndk/libhxmedpltfm.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libhxmedplyeng.so:/system/lib/helixndk/libhxmedplyeng.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libhxnetwksvc.so:/system/lib/helixndk/libhxnetwksvc.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libmp4arender.so:/system/lib/helixndk/libmp4arender.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libmp4vrender.so:/system/lib/helixndk/libmp4vrender.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libraac.so:/system/lib/helixndk/libraac.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libramfformat.so:/system/lib/helixndk/libramfformat.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libramrender.so:/system/lib/helixndk/libramrender.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk/libtsfformat.so \
-vendor/moto/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 vendor/moto/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
+vendor/moto/spyder/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
 
 #vendor/moto/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 
@@ -284,11 +214,11 @@ vendor/moto/spyder/proprietary/lib/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ri
 vendor/moto/spyder/proprietary/lib/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
 vendor/moto/spyder/proprietary/lib/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 vendor/moto/spyder/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
-vendor/moto/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 vendor/moto/spyder/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
 vendor/moto/spyder/proprietary/lib/libmotintfutil.so:/system/lib/libmotintfutil.so \
 vendor/moto/spyder/proprietary/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 
+#vendor/moto/spyder/proprietary/lib/libims_client_jni.so:/system/lib/libims_client_jni.so \
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 vendor/moto/spyder/proprietary/lib/hw/gps.spyder.so:/system/lib/hw/gps.spyder.so \
