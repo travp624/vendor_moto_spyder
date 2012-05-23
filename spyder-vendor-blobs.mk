@@ -227,7 +227,6 @@ vendor/moto/spyder/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jn
 vendor/moto/spyder/proprietary/lib/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 vendor/moto/spyder/proprietary/lib/libphotoflow.so:/system/lib/libphotoflow.so \
 vendor/moto/spyder/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
-vendor/moto/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 vendor/moto/spyder/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 vendor/moto/spyder/proprietary/lib/libprovlib.so:/system/lib/libprovlib.so \
 vendor/moto/spyder/proprietary/lib/libquicksec.so:/system/lib/libquicksec.so \
@@ -266,6 +265,7 @@ vendor/moto/spyder/proprietary/lib/helixndk/libtsfformat.so:/system/lib/helixndk
 vendor/moto/spyder/proprietary/lib/helixndk/libvidsite_ics.so:/system/lib/helixndk/libvidsite_ics.so \
 vendor/moto/spyder/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 
+#vendor/moto/spyder/proprietary/lib/libportaljni.so:/system/lib/libportaljni.so \
 # Camera files
 PRODUCT_COPY_FILES += \
 vendor/moto/spyder/proprietary/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so \
